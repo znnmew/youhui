@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>惠聚同事 - 内部优惠导航</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#f6f7f9;color:#222;padding:14px}
+.container{max-width:720px;margin:0 auto}
+.header{text-align:center;margin:20px 0 26px}
+.header h1{font-size:24px;font-weight:700;color:#111}
+.header p{font-size:14px;color:#666;margin-top:4px}
+.box{background:#fff;border-radius:16px;margin-bottom:18px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.box-title{font-size:16px;font-weight:600;margin-bottom:14px;padding-left:4px;color:#333}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:480px){.grid{grid-template-columns:repeat(3,1fr)}}
+.item{text-align:center;display:block;text-decoration:none;color:inherit}
+.item img{width:100%;height:56px;object-fit:contain;border-radius:12px;background:#f9f9f9;padding:6px}
+.item .name{font-size:12px;margin-top:6px;line-height:1.2}
+.footer{text-align:center;font-size:12px;color:#999;padding:20px 0}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>惠聚同事</h1>
+    <p>外卖｜到店｜电商｜出行｜话费 优惠直达</p>
+  </div>
+
+  <div class="box">
+    <div class="box-title">🍔 外卖优惠</div>
+    <div class="grid">
+      <a class="item" href="https://www.meituan.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-7/16256434246365572.png">
+        <div class="name">美团外卖</div>
+      </a>
+      <a class="item" href="https://www.ele.me" target="_blank">
+        <img src="https://p.qqan.com/up/2021-7/16256434646276952.png">
+        <div class="name">饿了么</div>
+      </a>
+      <a class="item" href="https://waimai.jd.com" target="_blank">
+        <img src="https://p.qqan.com/up/2022-9/16623649247442669.png">
+        <div class="name">京东外卖</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">🍵 到店美食</div>
+    <div class="grid">
+      <a class="item" href="https://www.meituan.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-4/16172565947776677.png">
+        <div class="name">美团到店</div>
+      </a>
+      <a class="item" href="https://www.ele.me" target="_blank">
+        <img src="https://p.qqan.com/up/2021-4/16172566247277272.png">
+        <div class="name">饿了么到店</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">🛒 电商好物</div>
+    <div class="grid">
+      <a class="item" href="https://www.taobao.com" target="_blank">
+        <img src="https://p.qqan.com/up/2020-12/16080911447776777.png">
+        <div class="name">淘宝</div>
+      </a>
+      <a class="item" href="https://www.jd.com" target="_blank">
+        <img src="https://p.qqan.com/up/2020-12/16080911647222222.png">
+        <div class="name">京东</div>
+      </a>
+      <a class="item" href="https://www.pinduoduo.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-3/16165644447777777.png">
+        <div class="name">拼多多</div>
+      </a>
+      <a class="item" href="https://www.vip.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-2/16127144447777777.png">
+        <div class="name">唯品会</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="box-title">☎️ 话费 & 出行</div>
+    <div class="grid">
+      <a class="item" href="https://www.10086.cn" target="_blank">
+        <img src="https://p.qqan.com/up/2021-5/16207144447777777.png">
+        <div class="name">话费充值</div>
+      </a>
+      <a class="item" href="https://www.didichuxing.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-6/16234567897777777.png">
+        <div class="name">滴滴出行</div>
+      </a>
+      <a class="item" href="https://maoyan.com" target="_blank">
+        <img src="https://p.qqan.com/up/2021-4/16170000007777777.png">
+        <div class="name">电影票</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    仅供同事内部使用 · 非盈利项目
+  </div>
+</div>
+</body>
+</html>
